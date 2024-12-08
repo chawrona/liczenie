@@ -109,7 +109,7 @@ function generowanie() {
 
         // Losuj dwa mnożniki z zakresu 2-10
         const mnoznik2 =  getRandomArbitrary(0, liczby.length)
-        const mnoznik1 = getRandomArbitrary(2, 11)
+        const mnoznik1 = getRandomArbitrary(2, 21)
 
         // Oblicz odpowiedź
         const odpowiedz = mnoznik1 * liczby[mnoznik2];
